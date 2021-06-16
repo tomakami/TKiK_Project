@@ -26,7 +26,7 @@ body_element
 | expression;
 
 variable_declaration
-: type ID (LEFTBRACKET RIGHTBRACKET)? (ASSIGN (variable|expression))? SEMI
+: type ID (LEFTBRACKET RIGHTBRACKET)? (ASSIGN (expression))? SEMI
 | type ID (LEFTBRACKET NATURAL RIGHTBRACKET)? SEMI;
 
 double_operator
